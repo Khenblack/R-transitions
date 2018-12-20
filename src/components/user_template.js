@@ -6,7 +6,7 @@ const UserTemplate = (props) => {
   console.log(props);
   return (
     <div>
-
+      User template
     </div>
   );
 };
@@ -16,7 +16,9 @@ UserTemplate.propTypes = {
   lastname: PropTypes.string,
   age: PropTypes.number,
   hobbies: PropTypes.array,
-  spanish: PropTypes.bool
+  spanish: PropTypes.bool,
+  message: PropTypes.func,
+  car: PropTypes.object
 }
 
 export default UserTemplate;

@@ -9,7 +9,9 @@ class User extends Component {
     lastname: 'Roca',
     age: 32,
     hobbies: ['run', 'jump'],
-    spanish: false
+    spanish: false,
+    message() { console.log('message') },
+    car: { brand: 'Ford', model: 'Focus' }
   }
 
   render() {
